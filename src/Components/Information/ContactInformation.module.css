@@ -1,0 +1,60 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+  }
+  footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+  footer .logo {
+    margin-bottom: 10px;
+    height: 50px;
+    width: 50px;
+  }
+  footer h4 {
+    font-size: 18px;
+  }
+  footer p {
+    font-size: 15px;
+    margin: 0 0 8px 0;
+  }
+  
+  footer a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  footer .follow {
+    margin-top: 20px;
+  }
+  
+  footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+  }
+  
+  footer .install .row img {
+    border: 1px solid #0c9a90;
+    border-radius: 6px;
+  }
+  footer .intall img {
+    margin: 10px 0 15px 0;
+  }
+  footer .follow i:hover,
+  footer a:hover {
+    color: #0c9a90;
+  }
+  
+  footer .copyright {
+    width: 100%;
+    text-align: center;
+  }

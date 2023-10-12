@@ -1,0 +1,83 @@
+/* search section */
+.search_container {
+  margin: 100px auto 40px;
+  width: 40%;
+  min-width: 300px;
+  position: relative;
+}
+.search_container i {
+  color: rgb(86, 86, 86);
+  position: absolute;
+  font-size: 20px;
+  top: 6px;
+  left: 10px;
+}
+.search_container input {
+  width: 100%;
+  font-size: 18px;
+  padding: 8px 45px;
+  background-color: rgb(231, 231, 231);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+/* section for filter */
+.filter {
+  min-height: 550px;
+  overflow: auto;
+  width: 250px;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 0 0 10px rgb(198, 198, 198);
+  border-radius: 10px;
+  position: fixed;
+  left: 20px;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3b3b3b;
+}
+.filter_title {
+  text-align: center;
+  font-size: 30px;
+}
+.panel > div {
+  margin: 10px 0px 10px 0px;
+  font-size: 18px;
+}
+.panel > div input[type="range"] {
+  width: 180px;
+  accent-color: rgb(12, 154, 144);
+}
+.panel > div input[type="checkbox"] {
+  height: 18px;
+  width: 18px;
+  accent-color: rgb(12, 154, 144);
+}
+.panel label {
+  margin-left: 10px;
+}
+
+.rightSide {
+  margin-left: 300px;
+}
+.shop_loading_container {
+  min-height: 400px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive css */
+@media (max-width: 900px) {
+  .filter {
+    display: none;
+  }
+  .rightSide {
+    margin-left: 0px;
+  }
+}

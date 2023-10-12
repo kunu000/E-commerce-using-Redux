@@ -1,0 +1,35 @@
+/* error page container */
+.errorPage {
+  text-align: center;
+  color: black;
+  margin-top: 8rem;
+}
+.errorPage img {
+  width: 300px;
+}
+.errorPage p {
+  color: rgb(97, 97, 97);
+  font-size: 18px;
+}
+.errorPage h1 {
+  margin-bottom: 1rem;
+}
+.errorPage button {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #45d545;
+  color: white;
+  cursor: pointer;
+}
+.errorPage button:hover {
+    background-color: #5bc25b;
+}
+
+@media (max-width:500px){
+  .errorPage img {
+    width: 250px;
+  }
+}

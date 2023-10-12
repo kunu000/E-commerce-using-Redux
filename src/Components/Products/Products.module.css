@@ -1,0 +1,117 @@
+.pro {
+  position: relative;
+}
+#product1 .pro_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#product1 {
+  text-align: center;
+}
+#product1 > h2 {
+  font-size: 45px;
+}
+#product1 p {
+  font-size: 18px;
+}
+#product1 .pro {
+  text-align: start;
+  width: 20%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 5px;
+  transition: 0.2s ease-in-out;
+}
+#product1 .pro img {
+  width: 100%;
+  object-fit: contain;
+  height: 220px;
+  border-radius: 7px;
+}
+
+#product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.07);
+}
+
+#product1 .pro .des {
+  text-align: start;
+}
+#product1 .pro .des span {
+  color: #606063;
+  font-size: 12px;
+}
+#product1 .pro .des h3 {
+  padding: 7px 0;
+  color: #1a1a1a;
+  font-size: 18px;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#product1 .pro .star i {
+  font-size: 12px;
+  color: rgb(243, 181, 25);
+}
+#product1 .pro .des h4 {
+  padding-top: 7px;
+  color: #0c9a90;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0;
+}
+
+#product1 .pro .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  text-align: center;
+  color: #0c9a90;
+  border: 1px solid #cce7d0;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+#product1 .pro .cart:disabled {
+  color: grey;
+}
+#product1 .pro .cart:active {
+  background-color: #0c9a90;
+  color: white;
+}
+.no_product_container {
+  min-height: 400px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.no_product_container img {
+  height: 150px;
+  width: 150px;
+}
+.no_product_container span {
+  font-size: 30px;
+  color: #9d9d9d;
+}
+
+@media (max-width: 900px) {
+  .pro_container {
+    padding: 0px 20px;
+  }
+  #product1 .pro {
+    min-width: 220px;
+  }
+  #product1 .pro img {
+    height: 200px;
+  }
+}

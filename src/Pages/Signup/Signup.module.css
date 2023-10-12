@@ -1,0 +1,74 @@
+.signup {
+  height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup_container {
+  margin: 100px auto;
+  border: 1px solid black;
+  width: 350px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 20px 0px;
+  background-color: hsl(0deg 0% 26.42%);
+}
+.signup_container h2 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 10px;
+}
+.signup_container div {
+  margin: 30px 20px;
+}
+.signup_container div label,
+.signup_container div input {
+  display: block;
+  width: 100%;
+  margin: 10px 0px;
+  box-sizing: border-box;
+}
+.signup_container div label {
+  color: white;
+}
+.signup_container div input {
+  font-size: 17px;
+  padding: 4px 15px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid rgb(70, 70, 70);
+}
+.signup_container div input:focus {
+  box-shadow: 0px 0px 3px black;
+}
+.signup_container > button {
+  margin: 20px auto;
+  width: 100px;
+  display: block;
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+  color: black;
+}
+.signup_container > button:active {
+  background-color: rgb(13, 132, 122);
+  color: white;
+}
+.signup_container > button:disabled {
+  background-color: grey;
+  color: white;
+}
+.text a {
+  color: #11c4b3;
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  .signup_container {
+    width: 300px;
+  }
+}
